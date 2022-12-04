@@ -15,9 +15,26 @@ const alternateSectionTextItem = alternateSectionText.map((item, index) => {
 const Home: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center font-poppins gap-24">
+      <div className="flex flex-col justify-center items-center font-poppins gap-24 relative overflow-x-hidden">
         <Navbar className="absolute top-16 bg-[#FEFEFE70] flex justify-evenly w-full items-center py-6 font-poppins font-semibold text-[#2C2C2C]" />
-        <div className="w-full h-screen">
+        <div className="w-full h-screen flex flex-col justify-center items-center">
+          <div className="w-4/5 h-1/4 absolute">
+            <div className="">
+              <div className="h-2 w-[220px] bg-[#4E4E4E] absolute top-1/4"></div>
+              <div className="h-[220px] w-2 bg-[#4E4E4E] absolute top-1/4"></div>
+            </div>
+            <div className="absolute top-[600px] right-20 flex flex-col justify-center items-end text-[#202020] text-6xl">
+              <h1 className="">We will</h1>
+              <h1>help you</h1>
+              <h1>
+                <span className="text-[#009641]">save </span>the planet
+              </h1>
+            </div>
+            <div>
+              <div className="h-[220px] w-2 bg-[#009641] absolute top-[650px] right-0"></div>
+              <div className="h-2 w-[220px] bg-[#009641] absolute right-0 top-[870px]"></div>
+            </div>
+          </div>
           <img
             src="/assets/images/banner_image.png"
             alt=""

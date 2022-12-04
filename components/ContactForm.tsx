@@ -9,27 +9,30 @@ const ContactForm = (props: Props) => {
         type="text"
         name="firstName"
         placeholder="First Name"
-        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6"
+        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6 px-4"
       />
       <input
         type="text"
         name="firstName"
-        placeholder="First Name"
-        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6"
+        placeholder="Last Name"
+        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6 px-4"
       />
       <input
         type="text"
         name="firstName"
-        placeholder="First Name"
-        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6"
+        placeholder="Email"
+        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6 px-4"
       />
       <input
         type="text"
         name="firstName"
-        placeholder="First Name"
-        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6"
+        placeholder="Contact Number"
+        className="text-[#FEFEFE] bg-[#1A1A1A] w-full py-6 px-4"
       />
-      <div className="bg-[#1A1A1A] w-full row-span-2 col-span-2">1</div>
+      <textarea
+        className="bg-[#1A1A1A] w-full row-span-2 col-span-2 px-4 py-6 text-[#FEFEFE]"
+        placeholder="type your message here"
+      />
     </form>
   );
 };
