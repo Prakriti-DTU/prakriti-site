@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               <div className="h-2 w-[220px] bg-[#4E4E4E] absolute top-1/4"></div>
               <div className="h-[220px] w-2 bg-[#4E4E4E] absolute top-1/4"></div>
             </div>
-            <div className="absolute top-[600px] right-20 flex flex-col justify-center items-end text-[#202020] text-6xl">
+            <div className="absolute top-[35rem] right-20 flex flex-col justify-center items-end text-[#202020] text-6xl">
               <h1 className="">We will</h1>
               <h1>help you</h1>
               <h1>
@@ -31,8 +31,8 @@ const Home: NextPage = () => {
               </h1>
             </div>
             <div>
-              <div className="h-[220px] w-2 bg-[#009641] absolute top-[650px] right-0"></div>
-              <div className="h-2 w-[220px] bg-[#009641] absolute right-0 top-[870px]"></div>
+              <div className="h-[220px] w-2 bg-[#009641] absolute top-[35.5rem] right-0"></div>
+              <div className="h-2 w-[220px] bg-[#009641] absolute right-0 top-[49rem] b"></div>
             </div>
           </div>
           <img

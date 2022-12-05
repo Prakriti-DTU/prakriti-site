@@ -10,9 +10,15 @@ const PartnersSection = (props: Props) => {
         <h1 className="text-3xl font-medium">Partners</h1>
       </div>
       <div className="w-full flex items-center justify-evenly gap-[8rem]">
-        <img src="/assets/images/testemonial_1.svg" alt="partner-1" />
-        <img src="/assets/images/testemonial_2.svg" alt="partner-1" />
-        <img src="/assets/images/dtu_logo.png" alt="dtu logo" />
+        <a href="https://www.ewb-india.org/" target='_blank'>
+          <img src="/assets/images/testemonial_1.svg" alt="partner-1" />
+        </a>
+        <a href="https://mcnpartners.org/" target='_blanl=k'>
+          <img src="/assets/images/testemonial_2.svg" alt="partner-2" />
+        </a>
+        <a href="http://www.dtu.ac.in/" target='_blank'>
+          <img src="/assets/images/dtu_logo.png" alt="dtu logo" />
+        </a>
       </div>
     </div>
   );
