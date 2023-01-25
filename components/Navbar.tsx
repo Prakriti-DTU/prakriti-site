@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
     <div className={`${props.className}`}>
       <div className="flex justify-evenly w-1/2 relative -left-[5.5rem]">
         <h2 className="text-[#009641]">Home</h2>
-        <h2>About</h2>
+        <h2 className="hover:text-[#009641]">About</h2>
       </div>
       <div className="">
         <img
@@ -21,8 +21,8 @@ const Navbar = (props: Props) => {
         />
       </div>
       <div className="flex justify-evenly w-1/2 relative left-28">
-        <h2>Services</h2>
-        <h2>Contact</h2>
+        <h2 className="hover:text-[#009641]">Services</h2>
+        <h2 className="hover:text-[#009641]">Contact</h2>
       </div>
     </div>
   );
