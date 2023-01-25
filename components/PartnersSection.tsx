@@ -9,7 +9,7 @@ const PartnersSection = (props: Props) => {
         <h1 className="text-xl text-gray-500">Meet our</h1>
         <h1 className="text-3xl font-medium">Partners</h1>
       </div>
-      <div className="w-full flex items-center justify-evenly gap-[8rem]">
+      <div className="w-full flex flex-col md:flex-row items-center justify-evenly gap-[8rem]">
         <a href="https://www.ewb-india.org/" target='_blank'>
           <img src="/assets/images/testemonial_1.svg" alt="partner-1" />
         </a>

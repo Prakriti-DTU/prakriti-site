@@ -43,16 +43,17 @@ const Home: NextPage = () => {
         </div>
         {/* white background section starts */}
         <div className="w-full bg-white flex flex-col justify-center">
-          <div className="w-4/5 flex flex-col items-center justify-center m-auto gap-24">
-            <div className="bg-[#202020] w-full flex items-center py-16 px-6">
-              <div className="w-1/3 relative left-20 text-[#FEFEFE] flex flex-col justify-between gap-10">
+          <div className="md:w-4/5 px-4 md:px-0 flex flex-col items-center justify-center m-auto gap-24">
+            <div className="bg-[#202020] w-full flex flex-col md:flex-row items-center py-16 px-6">
+              <div className="w-full md:w-1/3 relative md:left-10 lg:left-20 text-[#FEFEFE] flex flex-col justify-between gap-10 pb-5 md:pb-0">
                 <p className="text-md">
                   <span className="font-bold">{aboutUsText.firstWord}</span>
                   <span>{aboutUsText.secondWord}</span>
                 </p>
-                <h1 className="text-5xl text-right">About Us</h1>
+                <h1 className="text-5xl text-right hidden md:block">About Us</h1>
               </div>
-              <div className="bg-[#F4F4F4] h-[22rem] w-1/4 absolute right-[20rem]"></div>
+              <div className="bg-[#F4F4F4] h-[22rem] w-full md:w-1/4 md:absolute md:right-[10rem] lg:right-[20rem]"></div>
+              <h1 className="text-5xl text-right block md:hidden text-[#FEFEFE] pt-10 md:pt-0">About Us</h1>
             </div>
             <div className="w-full flex items-center justify-between gap-4">
               <h1 className="text-5xl">What we do</h1>
