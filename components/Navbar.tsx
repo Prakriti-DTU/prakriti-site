@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -13,7 +12,7 @@ const Navbar = (props: Props) => {
         <h2>About</h2>
       </div>
       <div className="">
-        <Image
+        <img
           height={500}
           width={500}
           src={"/assets/images/project_prakriti_logo_black.svg"}
